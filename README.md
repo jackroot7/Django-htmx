@@ -14,32 +14,38 @@ Make sure you have the following installed on your machine:
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/your-username/your-django-project.git
-   cd your-django-project
+   git clone https://github.com/jackroot7/Django-htmx.git
+   cd fuel_gas
 
-## Create and Activate the Virtual Environment
+2. **Create and Activate the Virtual Environment**
 On Windows
-`python -m venv venv
-.\venv\Scripts\activate`
+    ```bash
+    python -m venv venv
+    .\venv\Scripts\activate
 
 On macOS and Linux
-`python3 -m venv venv
-source venv/bin/activate
-`
-
-## Install Dependencies
-`pip install -r requirements.txt`
-
-## Apply Migrations
-`python manage.py migrate`
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate
 
 
-## Create a Superuser (Optional)
-`python manage.py createsuperuser`
+3. **Install Dependencies**
+    ```bash
+    pip install -r requirements.txt
+
+4. Apply Migrations
+    ```bash
+    python manage.py migrate
 
 
-## Run the Development Server
-`python manage.py runserver`
+5. **Create a Superuser (Optional)**
+    ```bash
+    python manage.py createsuperuser
+
+
+6. **Run the Development Server**
+    ```bash
+    python manage.py runserver
 
 
 Access the development server at http://127.0.0.1:8000/ and the Django admin interface at http://127.0.0.1:8000/admin/ (if you created a superuser).
@@ -48,7 +54,6 @@ Access the development server at http://127.0.0.1:8000/ and the Django admin int
 License
 This project is licensed under the MIT License.
 
-``
+
 Feel free to customize it further based on your specific project details and preferences.
 
-``
