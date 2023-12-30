@@ -26,6 +26,6 @@ class Sonsors(models.Model):
         db_table_comment = "This Table Used to Store IOT Sensors for reading Fuel Levels"
 
     def __str__(self):
-        return "{} - {}".format(self.sensor_name, self.serial_number)
+        return "{} - {}".format(self.sensor_name, self.serial_number) 
 
 
